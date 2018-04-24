@@ -248,8 +248,8 @@
 				TargetAttributes = {
 					45C07DF11E6729C10082025A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 93KDX755KN;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 472P9J8R6U;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -454,26 +454,30 @@
 		45C07E0A1E6729C10082025A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 93KDX755KN;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472P9J8R6U;
 				INFOPLIST_FILE = Reader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icodemonks.Reader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0502e913-81df-43bd-8be3-b6a1ae9129d8";
-				PROVISIONING_PROFILE_SPECIFIER = Development;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		45C07E0B1E6729C10082025A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 93KDX755KN;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472P9J8R6U;
 				INFOPLIST_FILE = Reader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icodemonks.Reader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0502e913-81df-43bd-8be3-b6a1ae9129d8";
-				PROVISIONING_PROFILE_SPECIFIER = Development;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

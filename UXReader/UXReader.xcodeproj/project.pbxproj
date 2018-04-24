@@ -592,8 +592,8 @@
 				TargetAttributes = {
 					454179D51E672BEC0044248A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 93KDX755KN;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 472P9J8R6U;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -811,10 +811,11 @@
 		454179DF1E672BEC0044248A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93KDX755KN;
+				DEVELOPMENT_TEAM = 472P9J8R6U;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -827,6 +828,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.icodemonks.UXReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -834,10 +836,11 @@
 		454179E01E672BEC0044248A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93KDX755KN;
+				DEVELOPMENT_TEAM = 472P9J8R6U;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -850,6 +853,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.icodemonks.UXReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
